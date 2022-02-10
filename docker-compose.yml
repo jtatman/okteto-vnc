@@ -3,6 +3,7 @@ services:
         public: true
         container_name: tzchz
         image: consol/centos-xfce-vnc:latest
+        user: 0
         ports:
             - 6901:6901
         environment: 
