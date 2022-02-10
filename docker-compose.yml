@@ -6,7 +6,7 @@ services:
         ports:
             - 6901:6901
         environment: 
-            - VNC_PASSWD=tryme
+            - VNC_PASSWD=vncpassword
             - GEOMETRY=1280x768
             - TZ=US/Central
             - DEPTH=24
