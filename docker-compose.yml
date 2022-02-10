@@ -1,10 +1,10 @@
 services:
     ubuntu:
         public: true
-        container_name: tzchz
-        image: imlala/ubuntu-xfce-vnc-novnc:latest
+        container_name: spatazz
+        image: consol/centos-xfce-vnc:latest
         ports:
-            - 6080:6080
+            - 6901:6901
         environment: 
             - VNC_PASSWD=tryme
             - GEOMETRY=1280x768
