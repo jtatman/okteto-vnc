@@ -4,11 +4,11 @@ services:
         container_name: tzchz
         image: consol/centos-xfce-vnc:latest
         ports:
-            - 6901:6901s
+            - 6901:6901
         environment: 
             - VNC_PASSWD=tryme
             - GEOMETRY=1280x768
-            - TZ=Asia/Shanghai
+            - TZ=US/Central
             - DEPTH=24
         volumes: 
             - /root/Desktop
