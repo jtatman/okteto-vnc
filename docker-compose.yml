@@ -2,7 +2,7 @@ services:
     ubuntu:
         public: true
         container_name: tzchz
-        image: consol/centos-xfce-vnc:latest
+        image: consol/ubuntu-xfce-vnc:latest
         user: 0
         ports:
             - 6901:6901
